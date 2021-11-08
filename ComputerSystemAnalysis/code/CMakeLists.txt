@@ -3,4 +3,4 @@ project(code)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(code main.cpp EightQueens.cpp EightQueens.h)
+add_executable(code main.cpp EightQueens.cpp EightQueens.h ThreadSafeQueue.h task_des.h)

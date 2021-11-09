@@ -11,7 +11,7 @@
 #include <tchar.h>
 
 // TODO: 在此处引用程序需要的其他头文件
-#pragma comment (lib,"D:\\DotNetProject\\VS2017\\Rdt\\Debug\\netsimlib.lib")
+#pragma comment (lib,".\\lib\\netsimlib.lib")
 
 #include <iostream>
 using namespace std;

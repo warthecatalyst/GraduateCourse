@@ -1,3 +1,6 @@
-﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project '..\netsimlib\netsimlib.vcxproj' does not exist.
+cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
   StopWait.cpp
-  StopWait.vcxproj -> D:\DotNetProject\VS2017\Rdt\Debug\StopWait.exe
+  GBNRdtReceiver.cpp
+  正在生成代码...
+  StopWait.vcxproj -> E:\GraduateCourse\TCPSimulation\Windows VS2017\StopWait\Debug\StopWait.exe

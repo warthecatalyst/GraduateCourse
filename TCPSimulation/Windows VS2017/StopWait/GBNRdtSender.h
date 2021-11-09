@@ -9,7 +9,7 @@ private:
 	int nextSeqnum;		//下一个要发送的Packet的编号
 	int base;			//滑动窗口的base
 	const int N;		//滑动窗口的大小，设置为4
-	const int SeqNumMax; //指示Packet编号的位数，设置为8
+	const int seqSize;  //指示Packet编号的位数，设置为8
 	std::vector<Packet> packets;	//保存发送的报文用于重传
 	
 	void PrintSlideWindow();	//打印滑动窗口用于debug

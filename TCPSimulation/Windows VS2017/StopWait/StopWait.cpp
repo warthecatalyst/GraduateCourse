@@ -10,7 +10,8 @@
 #include "GBNRdtReceiver.h"
 #include "GBNRdtSender.h"
 #include "SRRdtSender.h"
-
+#include "SRRdtReceiver.h"
+#include "TCPRdtSender.h"
 
 int main(int argc, char* argv[])
 {
@@ -19,6 +20,9 @@ int main(int argc, char* argv[])
 	RdtSender* gbns = new GBNRdtSender();
 	RdtReceiver* gbnr = new GBNRdtReceiver();
 	RdtSender* srs = new SRRdtSender();
+	RdtReceiver* srr = new SRRdtReceiver();
+	RdtSender* tcps = new TCPRdtSender();
+	RdtReceiver* tcpr = new GBNRdtReceiver();
 	pns->setRunMode(0);  //VERBOS模式
 	// pns->setRunMode(1);  //安静模式
 	pns->init();
@@ -31,6 +35,12 @@ int main(int argc, char* argv[])
 
 	delete ps;
 	delete pr;
+	delete gbns;
+	delete gbnr;
+	delete srs;
+	delete srr;
+	delete tcps;
+	delete tcpr;
 	delete pUtils;									//指向唯一的工具类实例，只在main函数结束前delete
 	delete pns;										//指向唯一的模拟网络环境类实例，只在main函数结束前delete
 	
